@@ -7,17 +7,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Bellybutton Biodiversity</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/style.css" />
 </head>
 
-<body>
+<body style="background-color:powderblue;">
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
+      <div class="col-md-12 jumbotron text-center" id = "headertitle">
         <h1>Belly Button Biodiversity Dashboard</h1>
         <p>Use the interactive charts below to explore the dataset</p>
       </div>
     </div>
+    <p>Below is a dashboard featuring information about volunteers in Roza's research study on bacteria that can be used to create fake meat. In Roza's study she collected demographic information, the top 10 bacteria cultures found, how often the subjects washed their bully button, and the cultures per sample. Select an ID from the drop down to see more information about each anonymous volunteer. </p>
     <div class="row">
       <div class="col-md-2">
         <div class="well">
@@ -32,10 +34,10 @@
           <div id="sample-metadata" class="panel-body"></div>
         </div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-4">
         <div id="bar"></div>
       </div>
-      <div class="col-md-5">
+      <div class="col-md-4">
         <div id="gauge"></div>
       </div>
     </div>
@@ -48,8 +50,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="plots.js"></script>
+  <script src="charts.js"></script>
 
 </body>
-
 </html>

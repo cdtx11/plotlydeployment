@@ -1,0 +1,10 @@
+.jumbotron {
+    background-image: url("../../../bacteria.jpg");
+    background-size: cover;
+  }
+
+#headertitle{ color: lightgray}
+
+#bubble {
+    margin-top: 300;
+}
